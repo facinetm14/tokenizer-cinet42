@@ -1,5 +1,7 @@
 # CinetK42
 
+The [Solidity contract](code/CinetK42.sol) defines the token. The [Hardhat deployment module](deployment/modules/CinetK42.ts) shows how the contract is instantiated. Read these alongside the [design documentation](documentation/README.md) before running the local deployment.
+
 CinetK42 (FK42) is a fixed-supply ERC20 token built with Solidity and OpenZeppelin.
 The full supply (10,000,000 FK42) is minted once at deployment and assigned to the initial owner.
 This project uses Hardhat and Hardhat Ignition for deployment.
@@ -53,6 +55,3 @@ And then ``` make deploy-dev ``` to finally deploy
 ## Clean
 
 ``` make clean ```
-
-
-
